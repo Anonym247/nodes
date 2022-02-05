@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #090404;
+}
+
+a {
+    display: inline-block!important;
+}
+
+#left {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
+#left ul.nav {
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+#left ul.nav ul,
+#left ul.nav ul li {
+    list-style: none!important;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+#left ul.nav ul {
+    padding-left: 0;
+    width: auto;
+}
+#left ul.nav ul.children {
+    padding-left: 12px;
+    width: auto;
+}
+#left ul.nav ul.children li{
+    margin-left: 0;
+}
+
+#left ul.nav li.parent a {
+    padding: 0;
+    color: #ccc;
+}
+
+#left ul.nav li.parent ul li a:hover {
+    background-color: #fff;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    box-shadow:none;
+}
+
+#left ul.nav li.parent>a>.sign{
+    margin-left: 0;
+    background-color: #999;
+}
+
+#left ul.nav li .lbl {
+    padding: 5px 12px;
+}
+#left ul.nav li.current>a>.lbl {
+    color: #fff;
+}
+#left ul.nav  li a .lbl{
+    font-size: 12px;
+}
+
+.rotated {
+    transform: rotate(45deg);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#countdown {
+    float: left;
+    color: red;
+}

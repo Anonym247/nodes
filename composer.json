@@ -1,0 +1,23 @@
+{
+  "name": "projects/nodes",
+  "authors": [
+    {
+      "name": "Shamil Mardanzade",
+      "email": "merdanzade2@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^2.4",
+    "ext-mysqli": "*",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/"
+    },
+    "files": [
+      "src/core/helpers.php"
+    ]
+  }
+}
